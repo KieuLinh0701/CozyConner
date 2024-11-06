@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<!-- BEGIN SALE PRODUCT & NEW ARRIVALS -->
+<!-- BEGIN BEST SELLERS -->
 <div class="row margin-bottom-40">
 	<!-- BEGIN SALE PRODUCT -->
 	<div class="col-md-12 sale-product">
-		<h2>New Arrivals</h2>
+		<h2>Best Sellers</h2>
 		<div class="owl-carousel owl-carousel5">
 			<div>
 				<div class="product-item">
@@ -144,7 +144,6 @@
 			</div>
 		</div>
 	</div>
-	<!-- END SALE PRODUCT -->
 </div>
-<!-- END SALE PRODUCT & NEW ARRIVALS -->
+<!-- END BEST SELLERS -->
 

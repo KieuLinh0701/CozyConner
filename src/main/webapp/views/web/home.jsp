@@ -6,6 +6,6 @@
 <!-- END SLIDER -->
 
 <!-- BEGIN BEST-SELLER -->
-<%@ include file="/commons/web/best-seller.jsp"%>
+<%@ include file="/commons/web/best-sellers.jsp"%>
 <!-- BEGIN BEST-SELLER -->
 
