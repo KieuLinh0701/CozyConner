@@ -42,7 +42,7 @@
 					</div>
 				</form>
 			</div>
-			<div class="col-md-4 col-sm-4 pull-right">
+			<div class="col-md-5 col-sm-5 pull-right">
 				<div class="form-info">
 					<h2>
 						<em>Important</em> Information
