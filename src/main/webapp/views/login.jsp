@@ -14,10 +14,10 @@
 				</c:if>
 				<form action="${pageContext.request.contextPath}/login" method="post" class="form-horizontal form-without-legend" role="form">
 					<div class="form-group">
-						<label for="username" class="col-lg-4 control-label">User Name <span
+						<label for="email" class="col-lg-4 control-label">Email <span
 							class="require">*</span></label>
 						<div class="col-lg-8">
-							<input type="text" class="form-control" id="username" name="username" require>
+							<input type="text" class="form-control" id="email" name="email" require>
 						</div>
 					</div>
 					<div class="form-group">
@@ -37,26 +37,7 @@
 					<div class="row">
 						<div
 							class="col-lg-8 col-md-offset-4 padding-left-0 padding-top-20">
-							<button type="submit" class="btn btn-primary">Login</button>
-						</div>
-					</div>
-					<div class="row">
-						<div
-							class="col-lg-8 col-md-offset-4 padding-left-0 padding-top-10 padding-right-30">
-							<hr>
-							<div class="login-socio">
-								<p class="text-muted">or login using:</p>
-								<ul class="social-icons">
-									<li><a href="#" data-original-title="facebook"
-										class="facebook" title="facebook"></a></li>
-									<li><a href="#" data-original-title="Twitter"
-										class="twitter" title="Twitter"></a></li>
-									<li><a href="#" data-original-title="Google Plus"
-										class="googleplus" title="Google Plus"></a></li>
-									<li><a href="#" data-original-title="Linkedin"
-										class="linkedin" title="LinkedIn"></a></li>
-								</ul>
-							</div>
+							<button type="submit" class="btn btn-primary" style="background-color:black">Login</button>
 						</div>
 					</div>
 				</form>
@@ -66,10 +47,8 @@
 					<h2>
 						<em>Important</em> Information
 					</h2>
-					<p>Duis autem vel eum iriure at dolor vulputate velit esse vel
-						molestie at dolore.</p>
-
-					<button type="button" class="btn btn-default">More details</button>
+					<p>All fields marked with an asterisk (*) are required.</p>
+					<p>Please ensure that all information is accurate and complete.</p>
 				</div>
 			</div>
 		</div>

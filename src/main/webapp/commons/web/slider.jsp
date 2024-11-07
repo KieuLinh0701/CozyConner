@@ -116,7 +116,7 @@
 			
 			
 			<div class="ls-slide ls-slide1. ls-title"
-				style="top: 200px; left: 33%; white-space: nowrap;
+				style="top: 150px; left: 33%; white-space: nowrap;
 				font: 50px/66px 'Source Sans Pro', Arial, sans-serif;
 				color: #fff;
 				border-bottom: solid 1px rgba(255,255,255,0.5) !important;
@@ -141,7 +141,7 @@
 			
 			
 			<div class="ls-l"
-				style="top: 333px; left: 33%; white-space: nowrap; font-size: 20px; font: 20px 'Open Sans Light', sans-serif;"
+				style="top: 283px; left: 33%; white-space: nowrap; font-size: 20px; font: 20px 'Open Sans Light', sans-serif;"
 				data-ls="
           fade: true; 
           fadeout: true; 
@@ -168,7 +168,7 @@
 				class="ls-bg" alt="Slide background">
 
 			<div class="ls-l ls-title"
-				style="top: 35%; left: 60%; white-space: nowrap;"
+				style="top: 30%; left: 60%; white-space: nowrap;"
 				data-ls="
           fade: true; 
           fadeout: true; 
@@ -184,7 +184,7 @@
 			</div>
 
 			<div class="ls-l ls-mini-text"
-				style="top: 55%; left: 60%; white-space: nowrap;"
+				style="top: 50%; left: 60%; white-space: nowrap;"
 				data-ls="
           fade: true; 
           fadeout: true;  
