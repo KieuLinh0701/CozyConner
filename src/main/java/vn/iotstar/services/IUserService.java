@@ -10,11 +10,13 @@ public interface IUserService {
 
 	List<User> findAll(int page, int pagesize);
 	
-	List<User> findByEmail(String email);
+	List<User> findByFullname(String fullname);
 
 	List<User> findAll();
 
 	User findById(int id);
+	
+	User findByEmail(String email);
 
 	void delete(int id) throws Exception;
 

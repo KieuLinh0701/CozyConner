@@ -34,8 +34,11 @@ public class User implements Serializable{
 	@Column(name = "birthday")
 	private LocalDateTime birthday;
 
-	@Column(name = "email", columnDefinition = "NVARCHAR(50) NULL")
+	@Column(name = "email", columnDefinition = "NVARCHAR(50) NOT NULL")
 	private String email;
+	
+	@Column(name = "code", columnDefinition = "NVARCHAR(20) NULL")
+	private String code;
 
 	@Column(name = "image", columnDefinition = "NVARCHAR(500) NULL")
 	private String image;
@@ -56,6 +59,14 @@ public class User implements Serializable{
 	private Role role;
 
 	public User() {
+	}
+
+	public String getCode() {
+		return code;
+	}
+
+	public void setCode(String code) {
+		this.code = code;
 	}
 
 	public int getId() {

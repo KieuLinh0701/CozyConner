@@ -2,6 +2,7 @@ package vn.iotstar.services.implement;
 
 import java.util.List;
 
+import jakarta.persistence.NoResultException;
 import vn.iotstar.dao.IUserDao;
 import vn.iotstar.dao.implement.UserDao;
 import vn.iotstar.entity.User;
@@ -21,8 +22,13 @@ public class UserService implements IUserService{
 	}
 
 	@Override
-	public List<User> findByEmail(String email) {
-		return userDao.findByEmail(email);
+	public User findByEmail(String email) {
+		try {
+			return userDao.findByEmail(email);
+		}
+		catch (NoResultException e){
+			return null;
+		}
 	}
 
 	@Override
@@ -48,6 +54,11 @@ public class UserService implements IUserService{
 	@Override
 	public void insert(User user) {
 		userDao.insert(user);
+	}
+
+	@Override
+	public List<User> findByFullname(String fullname) {
+		return userDao.findByFullname(fullname);
 	}
 
 }
